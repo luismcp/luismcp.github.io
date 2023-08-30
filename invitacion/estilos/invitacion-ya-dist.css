@@ -1,0 +1,308 @@
+:root {
+    --titles: 'Dancing Script', cursive;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.bold {
+    font-size: 1.05rem;
+}
+
+body {
+    margin: 0;
+    color: #fff;
+    background-image: -webkit-gradient(linear,left top, right top,from(#A569BD), color-stop(#3498DB), to(#17A589));
+    background-image: linear-gradient(to right,#A569BD, #3498DB, #17A589);
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    height: 90vh;
+    overflow: hidden;
+    background-image: url(/imagenes/rana.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: soft-light;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.degrate {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#093e33), to(transparent));
+    background-image: linear-gradient(to top, #093e33, transparent);
+    height: 5vh;
+    width: 100%;
+}
+
+.main {
+    background-color: #093e33;
+    background-image: url(/imagenes/inspiration-geometry.png);
+    overflow: hidden;
+    padding: 20px 20px;
+}
+
+.title {
+    font-size: 80px;
+}
+
+.subtitle {
+    font-size: 30px;
+}
+
+.title,
+.subtitle,
+h2 {
+    font-family: var(--titles);
+}
+
+h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+h2,
+p {
+    text-align: center;
+}
+
+#cuenta {
+    width: 90%;
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: rgba(251, 252, 252, .2);
+    height: 70px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 0px 0px 10px #fff;
+            box-shadow: 0px 0px 10px #fff;
+}
+
+.simply-section {
+    width: 25%;
+    height: 85%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.simply-section div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+}
+
+.simply-amount {
+    font-size: 40px;
+}
+
+.simply-days-section,
+.simply-hours-section,
+.simply-minutes-section {
+    border-right: 1px solid #fff;
+}
+
+.flecha,
+.ubi-logo,
+.gift,
+.asistencia-logo,
+.rules {
+    font-size: 40px;
+    margin: 0;
+}
+
+.rule {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.rules {
+    background-color: #fff;
+    color: red;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.main > div {
+    margin-bottom: 40px;
+}
+
+
+.ubi {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.map-a {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.banco {
+    background-color: #28B463;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+}
+
+.text {
+    margin-bottom: 1rem;
+    background-color: #106352;
+    border: 1px solid #106352;
+}
+
+.text:focus {
+    outline: 1px solid #48C9B0;
+}
+
+.text::-webkit-input-placeholder {
+    color: rgba(254, 254, 254, .3);
+}
+
+.text::-moz-placeholder {
+    color: rgba(254, 254, 254, .3);
+}
+
+.text:-ms-input-placeholder {
+    color: rgba(254, 254, 254, .3);
+}
+
+.text::-ms-input-placeholder {
+    color: rgba(254, 254, 254, .3);
+}
+
+.text::placeholder {
+    color: rgba(254, 254, 254, .3);
+}
+
+.submit {
+    background-color: #28B463;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.flecha{
+    -webkit-animation: desplazar 2.5s ease infinite;
+            animation: desplazar 2.5s ease infinite;
+}
+
+@-webkit-keyframes desplazar {
+    0% {
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+    }
+
+    12.5% {
+        -webkit-transform: translateY(10px);
+                transform: translateY(10px);
+    }
+
+    25% {
+        -webkit-transform: translateY(-10px);
+                transform: translateY(-10px);
+    }
+
+    37.5% {
+        -webkit-transform: translateY(8px);
+                transform: translateY(8px);
+    }
+
+    50% {
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+    }
+}
+
+@keyframes desplazar {
+    0% {
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+    }
+
+    12.5% {
+        -webkit-transform: translateY(10px);
+                transform: translateY(10px);
+    }
+
+    25% {
+        -webkit-transform: translateY(-10px);
+                transform: translateY(-10px);
+    }
+
+    37.5% {
+        -webkit-transform: translateY(8px);
+                transform: translateY(8px);
+    }
+
+    50% {
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+    }
+}

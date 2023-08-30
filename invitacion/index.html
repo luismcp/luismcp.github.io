@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/invitacion-ya-dist.css">
+    <title>invitacion</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">
+                Te invito!
+            </h1>
+            <p class="subtitle">Cumpleaños de Josesito</p>
+            <p class="flecha">
+                <i class="bi bi-chevron-down"></i>
+            </p>
+            <div class="degrate"></div>
+        </header>
+        <main class="main">
+            <div class="cuenta">
+                <h2>Estas invitado!</h2>
+                <p>
+                    ¡Te invito a que celebremos juntos mi cumpleaños número 3!
+                    <br><br>
+                    <b style="font-size: 1.3rem;">Sabado 26 de agosto a las 5pm</b> 
+                </p>
+                <div id="cuenta"></div>
+            </div>
+            <div class="ubi">
+                <p class="ubi-logo">
+                    <i class="bi bi-geo-alt"></i>
+                </p>
+                <h2>Ubicacion</h2>
+                <p>
+                    La fiesta estará ubicada en <b class="bold">Lomas del Pedregal, Calle Fluorita
+                    #2190</b> en la <b class="bold">Quinta el Pedregal</b> 
+                    <br><br>
+                    <b style="font-size: 1.3rem;">¡Así que lleva traje de baño!</b>
+                    <br><br>
+                    Puedes dirigirte con google maps dando click en la imagen...
+                </p>
+                <a href="https://maps.app.goo.gl/M1VGhZfpF6L9fYjV7" target="_blank">
+                    <img class="map-a" src="/imagenes/ubi.jpg" alt="direccion">
+                </a>
+            </div>
+            <div class="regalo">
+                <p class="gift">
+                    <i class="bi bi-gift"></i>
+                </p>
+                <h2>Regalo</h2>
+                <p>
+                    <b class="bold">¡Tu compañía es el mejor regalo para mí!</b>
+                    <br><br>
+                    Si te gustaría llevar algo y no te decides, puedes  
+                    trasferir a la siguiente cuenta y yo me encargaré de elegir
+                </p>
+                <p class="banco">
+                    <b>Num: </b>5579 0830 1366 1307
+                    <br>
+                    <b>Titular: </b>Luis Mario Cruz Pérez
+                    <br>
+                    <b>Banco: </b> Santander
+                </p>
+            </div>
+            <div class="asistencia">
+                <p class="asistencia-logo">
+                    <i class="bi bi-check-lg"></i>
+                </p>
+                <h2>
+                    Confrmar asistencia
+                </h2>
+                <p>
+                    Ayudame confirmando tu asistencia para este día con el nombre de tu familia
+                    y así anticipar tu llegada 
+                    <br><br>
+                    <b class="bold">¡Espero que no faltes!</b>
+                </p>
+                <form action="#">
+                    <input type="text" name="familia" id="familia" class="input text" placeholder="Familia">
+                    <input type="submit" value="Confirmar" class="input submit">
+                </form>
+            </div>
+            <div class="rule">
+                <p class="rules">
+                    <i class="bi bi-exclamation-lg"></i>
+                </p>
+                <p>
+                    <b class="bold" style="font-size: 1.3rem; text-transform: uppercase; ">
+                    ¡No llevar alcohol!
+                    <br> 
+                    es fiesta para niños
+                    </b>
+                </p>
+            </div>
+        </main>
+    </div>
+    <script src="/js/simplyCountdown.min.js"></script>
+    <script src="/js/countdown.js"></script>
+</body>
+
+</html>
